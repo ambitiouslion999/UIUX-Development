@@ -5,6 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #76a4ff;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 4;
+}
+
+.block {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row.center {
+  align-items: center;
 }
 
 code {
